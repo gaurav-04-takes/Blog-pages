@@ -1,0 +1,91 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    /* overflow: hidden; */
+    padding: 50px;
+    
+}
+.maine-container {
+    max-width: 656px;
+    min-width: 375px;
+    box-shadow: 10px 0px 34px -7px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.header{
+    padding: 2em 3em 2em 3em;
+
+}
+.header h3{
+    color: hsl(179, 62%, 43%);
+}
+
+.secondHeading {
+    color: hsl(71, 73%, 54%);
+    line-height: 30px;
+}
+.discription{
+    color: rgb(151, 150, 150);
+    line-height: 22px;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    color: white;    
+    width: 100%;
+}
+
+.footer-container div{
+    flex: 1;
+}
+
+.left-part{
+    padding: 1em 3em;
+    background-color: rgb(45, 161, 165);
+    
+}
+
+.left-part p{
+    font-size: 0.8rem;
+}
+span{
+    font-size: 0.7rem;
+    color: rgba(221, 202, 202, 0.852);
+    
+}
+.signUP {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    background-color: rgb(130, 193, 35);
+    color: white;
+}
+.right-part {
+    padding: 1em 4em 2em 2em;
+    background-color: rgba(35, 199, 205, 0.885);
+}
+
+.right-part p{
+    font-size: 0.7rem;
+    line-height: 8px;
+    color: rgb(245, 239, 239);
+}
